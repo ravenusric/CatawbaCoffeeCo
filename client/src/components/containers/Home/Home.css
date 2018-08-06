@@ -1,6 +1,6 @@
 .jumbotron {
     margin-top: 20px;
-    background-image: url("../images/coffeebeans.jpg");
+    background-image: url("../../images/coffeebeans.jpg");
     background-size: 100% 100%;
     font-family: 'Rye', cursive;
     text-shadow:black;text-shadow: 2px 2px black;
@@ -17,7 +17,7 @@
 }
 
 body {
-    background-image: url("../images/beans.jpg");
+    background-image: url("../../images/beans.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
