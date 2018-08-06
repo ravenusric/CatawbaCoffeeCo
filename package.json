@@ -13,9 +13,8 @@
     "build": "node scripts/build.js",
     "seed": "node scripts/seedDB.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "installDeps": "yarn && cd client && yarn",
-    "heroku-postbuild":
-      "cd client/ && yarn add && npm run build"
+    "installDeps": "yarn && cd client && yarn"
+    
   },
   "repository": {
     "type": "git",
