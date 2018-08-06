@@ -22,7 +22,7 @@ const App = () => (
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/events" component={Events} />
       <Route exact path="/form" component={Form} />
-      <Route path="/menu" component={Menu} />
+      <Route exact path="/menu" component={Menu} />
     </div>
   </Router>
 );

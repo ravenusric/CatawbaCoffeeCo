@@ -2,17 +2,27 @@ import React from "react";
 
 const Home = () => (
   <div>
-    <h1>Home Page</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-      varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-      Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-      imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum ligula
-      in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare elit.
-      Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-      consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-      fames ac ante ipsum primis in faucibus.
-    </p>
+    <div className="container">
+      <div className="jumbotron">
+        <h1 className="text-center">Catawba Coffee Co</h1>
+        <p className="text-center">Where Friendship Is Just A Cup Away</p>
+        <hr className="text-center" />
+        <a className="btn btn-danger btn-lg" href="info.html" role="button">
+          Enter
+        </a>
+      </div>
+    </div>
+
+    <div className="footer">
+      <img src="" alt="catawbaLogo" />
+      <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
+      <p>
+        Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
+        Thursday 7AM–8PM Friday 7AM–9PM Saturday 8AM–8PM
+      </p>
+      <p>Phone: (704) 820-6556</p>
+    </div>
+
   </div>
 );
 
