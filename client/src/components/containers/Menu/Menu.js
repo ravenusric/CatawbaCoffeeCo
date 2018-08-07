@@ -1,20 +1,96 @@
-import React from "react";
-import "./Menu.css"
 
-const Menu = () => (
+import React, { Component } from "react";
+
+
+const menuItems = () => (
     <div>
-      <h1>Home Page</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-        varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-        Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-        imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum ligula
-        in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare elit.
-        Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-        consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+    <h1>Menu</h1>
+    <h2> Lattes </h2>
+    <ul>
+    <li> Milky Way</li>
+    <li> Nutella Mocha </li>
+    <li> Thin Mint </li>
+    <li> Banana Bread </li>
+    <li>The Almond G</li>
+    <li>Zebra Mocha</li>
+    <li>Birthday Cake</li>
+    <li>Raspberry Truffle</li>
+    <li>Caramel</li>
+    <li>Creme Brulee</li>
+    <li>Funky Monkey</li>
+    <li>Mayan Mocha</li>
+    <li>Cinnamon Bun</li>
+    <li>Loch Ness Mocha</li>
+    <li>Mocha</li>
+    <h3> Short: $3.50  Tall: $3.75  Grande: $4.05 </h3>
+    </ul>
+
+    <h2>Brewed Coffee</h2>
+    <ul>
+    <li>Short $1.50</li>
+    <li>Tall $1.65</li>
+    <li>Grande $1.85</li>
+    </ul>
+
+    <h2>Espresso Drinks</h2>
+    <ul>
+    <li>Espresso  $1.75</li>
+    <li>Americano  $1.75</li>
+    <li>Bad Wolf  $3.75</li>
+    <li>Cappuccino</li>
+    </ul>
+
+    <h2>Extras</h2>
+    <ul>
+    <li>Espresso</li>
+    <li>Half-n-Half</li>
+    <li>Almond/Soy</li>
+    <li>Flavor</li>
+    <li>Whipped Cream</li>
+    <li>Refills</li>
+    </ul>
+
+    <h2>Frappes</h2>
+    <ul>
+    <li>Vanilla</li>
+    <li>Cappuccino</li>
+    <li>Mocha</li>
+    <li>Cookie and Cream</li>
+    <li>Peanut Butter Mocha</li>
+    <li>Chai</li>
+    <h3>$4.05</h3>
+    </ul>
+
+    <h2>Smoothies</h2>
+    <ul>
+    <li>Peach</li>
+    <li>Strawberry</li>
+    <li>Mango</li>
+    <li>Strawberry Banana</li>
+    <li>Wildberry</li>
+    <li>Pina Colada</li>
+    <h3>$4.05</h3>
+    </ul>
+
+    <h2>Non Espresso Drinks</h2>
+    <ul>
+    <li>Chai Latte</li>
+    <li>Hot Tea</li>
+    <li>Hot Chocolate</li>
+    <li>Steamers</li>
+    </ul>
+
+    <h2>Food</h2>
+    <ul>
+    <li>Salads</li>
+    <li>Muffins</li>
+    <li>Cookies</li>
+    <li>Pastries</li>
+    <li>Sandwiches</li>
+    <li>Breakfast Sandwiches</li>
+    </ul>
     </div>
-  );
-  
-  export default Menu;
+
+);
+
+export default menuItems
