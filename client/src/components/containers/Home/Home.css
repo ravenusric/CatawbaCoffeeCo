@@ -5,7 +5,7 @@
     font-family: 'Rye', cursive;
     text-shadow:black;text-shadow: 2px 2px black;
     text-align: center;
-    border:1px solid red;
+    border:1px solid black;
 }
 .jumbotron h1 {
     font-size: 60px;
@@ -21,6 +21,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    border: solid black;
 }
 
 footer {

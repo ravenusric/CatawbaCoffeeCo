@@ -1,8 +1,6 @@
+import React from "react";
 
-import React, { Component } from "react";
-
-
-const menuItems = () => (
+const Menu = () => (
     <div>
     <h1>Menu</h1>
     <h2> Lattes </h2>
@@ -93,4 +91,4 @@ const menuItems = () => (
 
 );
 
-export default menuItems
+export default Menu;
