@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 
 
@@ -92,4 +93,4 @@ const menuItems = () => (
 
 );
 
-export default menuItems;
+export default menuItems

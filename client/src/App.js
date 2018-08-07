@@ -7,9 +7,7 @@ import About from "./components/containers/About/About";
 import Blog from "./components/containers/Blog/Blog";
 import Contact from "./components/containers/Contact/Contact";
 import Events from "./components/containers/Events/Events";
-import Form from "./components/containers/Form/Form";
 import Menu from "./components/containers/Menu/Menu";
-
 
 const App = () => (
 
@@ -21,7 +19,6 @@ const App = () => (
       <Route exact path="/blog" component={Blog} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/events" component={Events} />
-      <Route exact path="/form" component={Form} />
       <Route exact path="/menu" component={Menu} />
     </div>
   </Router>
