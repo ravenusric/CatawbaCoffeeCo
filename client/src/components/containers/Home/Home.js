@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css"
+import "../../images/logo.jpg"
 
 const Home = () => (
   <div>
@@ -15,7 +16,7 @@ const Home = () => (
     </div>
 
     <div className="footer">
-      <img src="../../images/logo2.jpg" alt="catawbaLogo" />
+      {/* <img src="../../images/logo.jpg" alt="catawbaLogo" /> */}
       <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
       <p>
         Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
