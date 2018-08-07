@@ -9,7 +9,7 @@ class Submissions extends Component {
     Submissions: [],
     name: "",
     email: "",
-    password: ""
+    text: ""
   };
 
   componentDidMount() {
@@ -23,7 +23,7 @@ class Submissions extends Component {
   loadSubmissions = () => {
     API.getSubmissions()
       .then(res =>
-        this.setState({ Submissions: res.data, name: "", email: "", password: "" })
+        this.setState({ Submissions: res.data, name: "", email: "", text: "" })
       )
       .catch(err => console.log(err));
   };
@@ -47,7 +47,7 @@ class Submissions extends Component {
       API.saveBook({
         name: this.state.title,
         email: this.state.author,
-        password: this.state.password
+        text: this.state.text
       })
         .then(res => this.loadSubmissions())
         .catch(err => console.log(err));
