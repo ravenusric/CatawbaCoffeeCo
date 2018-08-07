@@ -37,3 +37,39 @@ footer {
 html{
     border:3px solid red;
 }
+
+#contactBTN {
+    align-content: center;
+    color: red;
+}
+
+Form {
+    width: 33.3%;
+    height: 600px;
+    margin-left: 200px;
+}
+
+h3,
+h5 {
+    margin-left: 50px;
+    color: rgb(241, 234, 132)
+}
+
+h3{
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+#contactDetails,
+#contactEmail, 
+#contactLN, 
+#contactFN{
+ background: rgb(238, 233, 168);
+}
+
+#contactShare,
+#userContact{
+    color: rgb(241, 234, 132);
+    font-size: 24px;
+
+}
