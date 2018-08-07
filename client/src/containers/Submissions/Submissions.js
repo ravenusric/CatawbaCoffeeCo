@@ -44,9 +44,9 @@ class Submissions extends Component {
   handleFormSubmit = event => {
     event.preventDefault();
     if (this.state.name && this.state.email) {
-      API.saveBook({
-        name: this.state.title,
-        email: this.state.author,
+      API.saveSubmissions({
+        name: this.state.name,
+        email: this.state.email,
         text: this.state.text
       })
         .then(res => this.loadSubmissions())
@@ -60,7 +60,7 @@ class Submissions extends Component {
         <Row>
           <Col size="md-6">
             <Jumbotron>
-              <h1>Insert your contact information</h1>
+              <h1>Give us your feedback!</h1>
             </Jumbotron>
             <form>
               <Input

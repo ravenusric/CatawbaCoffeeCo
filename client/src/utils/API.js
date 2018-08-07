@@ -10,7 +10,7 @@ export default {
     return axios.delete("/api/submssions/" + id);
   },
   // Saves a book to the database
-  saveSubmissions: function(bookData) {
-    return axios.post("/api/submissions", bookData);
+  saveSubmissions: function(submissionsData) {
+    return axios.post("/api/submissions", submissionsData);
   }
 };
