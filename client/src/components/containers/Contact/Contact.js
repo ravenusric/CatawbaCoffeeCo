@@ -1,24 +1,41 @@
 import React from "react";
-import "./Contact.css"
+import "./Contact.css";
 
 const Contact = props => (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet efficitur.
-        In felis nisl, luctus non ante euismod, tincidunt bibendum mi. In a
-        molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna posuere,
-        eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque
-        nec metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla
-        facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh dictum
-        ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
-  );
+  <div>
+    <h3>Interested catering?</h3>
+    <h5>Contact us for more information.</h5>
+<hr/>
+    {/* <span class="border-top-0"> */}
+    <form>
+      <div className="row">
+        <div className="col">
+          <input
+            type="text"
+            className="form-control" id="contactFN"
+            placeholder="First name"
+          />
+        </div>
+        <div className="col">
+          <input type="text" className="form-control" id="contactLN" placeholder="Last name" />
+        </div>
+      </div>
   
+  <div className="form-group">
+    <label for="exampleFormControlInput1" id="userContact">Email address</label>
+    <input type="email" className="form-control" id="contactEmail" placeholder="name@example.com"/>
+  </div>
+
+  <div className="form-group">
+    <label for="exampleFormControlTextarea1" id="contactShare">Share your event details below...</label>
+    <textarea className="form-control" id="contactDetails" placeholder="occassion, date, menu preferences, etc..." rows="3"></textarea>
+  </div>
   
-  export default Contact;
+  <button type="submit" className="btn btn-dark" id="contactBTN">Submit</button>
+</form>
+  </div>
+// </span>
+  // </div>
+);
+
+export default Contact;
