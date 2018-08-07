@@ -67,16 +67,6 @@ const NavTabs = () => (
         Events
       </Link>
     </li>
-    <li className="nav-item">
-      <Link
-        to="/form"
-        className={
-          window.location.pathname === "/form" ? "nav-link active" : "nav-link"
-        }
-      >
-        Blog
-      </Link>
-    </li>
   </ul>
 );
 
