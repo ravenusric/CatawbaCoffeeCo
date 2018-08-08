@@ -5,7 +5,7 @@
 }
 .Menupage {
     background-color: black;
-    background-image: url("../../images/pictureframes.jpeg");
+    background-image: url("../../images/coffeeart.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
@@ -33,7 +33,7 @@ h1 {
     background-size: 50%;
 }
 .Yummy {
-    background-image: url("../../images/muffins.jpeg");
+    background-image: url("../../images/coffeeart.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
