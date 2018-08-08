@@ -13,12 +13,14 @@ body {
     font-family: 'Rye', cursive;
     text-shadow:black;text-shadow: 2px 2px black;
     text-align: center;
-    border:1px solid black;
+    border:1px solid rgba(255, 0, 0, 0.651);
 }
 
 .jumbotron h1 {
     font-size: 65px;
     color: rgb(248, 245, 245);
+    font-family: 'Rye', cursive;
+
 }
 .jumbotron p {
     font-size: 35px;
@@ -34,14 +36,16 @@ body {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../../images/logo2.jpg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
     text-align: center;
-    color: white;
-    font-size: 20px;
+    background-color: black;
+    color: wheat;
+    font-size: 10px;
     border-color: black;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
 }
