@@ -1,22 +1,17 @@
 import React from "react";
 import "./Home.css"
-import "../../images/logo.jpg"
 
 const Home = () => (
-  <div>
+  <div className="wrapper">
     <div className="container">
       <div className="jumbotron">
         <h1 className="text-center">Catawba Coffee Co</h1>
         <p className="text-center">Where Friendship Is Just A Cup Away</p>
         <hr className="text-center" />
-        <a className="btn btn-danger btn-lg" href="info.html" role="button">
-          Enter
-        </a>
       </div>
     </div>
 
     <div className="footer">
-      {/* <img src="../../images/logo.jpg" alt="catawbaLogo" /> */}
       <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
       <p>
         Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
