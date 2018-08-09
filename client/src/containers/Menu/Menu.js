@@ -115,6 +115,14 @@ const Menu = () => (
                 </ul>
             </div>
         </div>
+        <div className="footer">
+<p>Address: 117 N Main St, Mt Holly, NC 28120</p>
+<p>
+  Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
+  Thursday 7AM–8PM Friday 7AM–9PM Saturday 8AM–8PM
+</p>
+<p>Phone: (704) 820-6556</p>
+</div>
     </div>
 
 );

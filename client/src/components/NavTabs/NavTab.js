@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavTabs = () => (
+
   <ul className="nav nav-tabs">
     <li className="nav-item">
       <Link
@@ -68,6 +69,9 @@ const NavTabs = () => (
       </Link>
     </li>
   </ul>
+
+
+
 );
 
 export default NavTabs;
