@@ -1,22 +1,23 @@
 import React, { Component } from "react";
-import Jumbotron from "../../components/Jumbotron";
 import API from "../../utils/API";
 import { Col, Row, Container } from "../../components/Grid";
 import { Input, TextArea, FormBtn } from "../../components/Form";
+import "./Submissions.css";
 
 class Submissions extends Component {
   state = {
     Submissions: [],
     name: "",
     email: "",
-    text: ""
+    text: "",
+    wantsEmail: true
   };
 
   componentDidMount() {
     this.loadSubmissions();
   }
 
-  myClick(){
+  myClick() {
     console.log(this.myClick);
   }
 
@@ -36,6 +37,16 @@ class Submissions extends Component {
 
   handleInputChange = event => {
     const { name, value } = event.target;
+
+    this.setState({
+      [name]: value
+    });
+  };
+
+  handleCheckbox = event => {
+    const target = event.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = target.name;
     this.setState({
       [name]: value
     });
@@ -56,41 +67,72 @@ class Submissions extends Component {
 
   render() {
     return (
-      <Container fluid>
-        <Row>
-          <Col size="md-6">
-            <Jumbotron>
-              <h1>Give us your feedback!</h1>
-            </Jumbotron>
-            <form>
+      <Container className="container1">
+        <Row className="mainRow">
+          <Col size="md-6" className="subH">
+            <br />
+            <br />
+            <div className="subH">
+              <h2>Contact Us!</h2>
+            </div>
+            <hr />
+            <form className="form1">
               <Input
+                className="subInput1"
                 value={this.state.name}
                 onChange={this.handleInputChange}
                 name="name"
-                placeholder="name (required)"
+                placeholder="First Name (required)"
               />
               <Input
+                className="subInput2"
+                value={this.state.lastName}
+                onChange={this.handleInputChange}
+                name="lastName"
+                placeholder="Last Name (required)"
+              />
+              <Input
+                className="subInput3"
                 value={this.state.email}
                 onChange={this.handleInputChange}
                 name="email"
-                placeholder="email (required)"
+                placeholder="Email (required)"
               />
               <TextArea
+                className="subTextarea"
                 value={this.state.synopsis}
                 onChange={this.handleInputChange}
                 name="text"
-                placeholder="text (Optional)"
+                placeholder="(Optional) Catering, Feedback, Questions, etc..."
               />
-              <FormBtn
+
+              <label>
+                <div className="checkbox">
+                  <Input
+                    name="wantsEmail"
+                    type="checkbox"
+                    value={this.state.signUp}
+                    checked={this.state.checked}
+                    className="subBox"
+                    onChange={this.handleCheckbox}
+                  />
+                  Check the box to sign <br />
+                  up for emails!
+                </div>
+              </label>
+
+              <br />
+              <FormBtn className="subBtn"
                 disabled={!(this.state.name && this.state.email)}
                 onClick={this.handleFormSubmit}
               >
-                Submit Information
+                Submit
               </FormBtn>
             </form>
           </Col>
         </Row>
       </Container>
+
     );
   }
 }
