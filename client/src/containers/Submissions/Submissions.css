@@ -1,75 +1,86 @@
-.jumbotron {
-    margin-top: 20px;
-    background-image: url("../../images/coffeebeans.jpg");
-    background-size: 100% 100%;
-    font-family: 'Rye', cursive;
-    text-shadow:black;text-shadow: 2px 2px black;
-    text-align: center;
-    border:1px solid red;
-}
-.jumbotron h1 {
-    font-size: 60px;
-    color: rgb(248, 245, 245);
-}
-.jumbotron p {
-    font-size: 30px;
-    color: rgb(253, 249, 249);
-}
-
-body {
-    background-image: url("../../images/beans.jpg");
+/* body {
+    background-image: url("../../images/BWstorefront.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: rgb(134, 12, 12);
+    
+
+} */
+
+.subInput1 {
+    background-color: black;
+   /* text-align: center; */
+   color: slategray;
+   width: 450px;
+   font-size: 18px;
 }
 
-footer {
+.subInput2{
+    background-color: black;
+   /* text-align: center; */
+   color: slategray;
+   width: 450px;
+   font-size: 18px;
+}
+.subInput3{
+    background-color: black;
+   /* text-align: center; */
+   color: slategray;
+   width: 450px;
+   font-size: 18px;
+}
+.subTextarea{background-color: black;
+    /* text-align: center; */
+    color: slategray;
+    width: 450px;
+    font-size: 18px;
+ }
+ .checkbox {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px 50px;
     text-align: center;
-    color: white;
-}
-
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-}
-
-html{
-    border:3px solid red;
-}
-
-#contactBTN {
-    align-content: center;
-    color: red;
-}
-
-Form {
-    width: 33.3%;
-    height: 600px;
-    margin-left: 200px;
-}
-
-h3,
-h5 {
-    margin-left: 50px;
-    color: rgb(241, 234, 132)
-}
-
-h3{
-    margin-top: 50px;
-    font-weight: bold;
-}
-
-#contactDetails,
-#contactEmail, 
-#contactLN, 
-#contactFN{
- background: rgb(238, 233, 168);
-}
-
-#contactShare,
-#userContact{
-    color: rgb(241, 234, 132);
+    text-shadow:rgba(0, 0, 0);text-shadow: 2px 2px black;
     font-size: 24px;
+    font-weight: bold;
+    color: maroon;
+    justify-content: center;
+    align-items: center;
+    height: 135px;
+    width: 365px;
+ }
+ .subBox{
+    background-color: blue;
+ }
 
+.subBtn {
+    background-color: maroon;
+    color: black;
+    border-radius: 25px;
+    padding:10px;
+    font-size: 24px;
+}
+
+h2
+{
+    /* width: 200px; */
+    color: maroon;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 280px;
+    font-family: 'Kaushan Script', cursive;
+    text-decoration: underline overline;
+    /* background-color: rgba(112, 128, 144, 0.541);  */ 
+    /* justify-content: center; */
+    /* align-items: center;  */
+    border-block-end: 20px;
+}
+
+.form1 {
+    text-align: center;
+    /* margin: 5.5% 15%; */
+    height: 30px;
+    width: 200%;
+    border-color: black;
+    border-width: 30px;
 }
