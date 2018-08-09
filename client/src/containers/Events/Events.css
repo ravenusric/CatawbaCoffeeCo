@@ -1,0 +1,39 @@
+/* Day background */
+.rbc-day-bg{
+    background-color: rgba(255, 255, 255, 0.39);
+
+-webkit-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
+-moz-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
+box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
+}
+
+.rbc-off-range-bg{
+    opacity: .6;
+}
+
+.rbc-today{
+    opacity: .7;
+}
+
+
+/* Toolbar  */
+.rbc-toolbar{
+    background-color: black;
+}
+
+/* Day of the Week */
+.rbc-header{
+    background-color: black;
+}
+
+/* Event highligh bar */
+.rbc-event{
+    background-color: rgba(0, 0, 0, 0.322) !important;
+}
+
+button{
+    background-color: lightgray !important;  
+    -webkit-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
+-moz-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
+box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1); 
+}

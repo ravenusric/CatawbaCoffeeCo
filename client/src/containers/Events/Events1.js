@@ -12,8 +12,9 @@ const Events = props => (
     events={[
       {
           title: "Tom Walsh",
-          start: new Date(2018, 6, 27), 
-          end: new Date(2018, 6, 27), 
+          start: new Date(2018, 6, 27,19,00), 
+          end: new Date(2018, 6, 27,20,00), 
+          date?: any,
           allDay: false 
       },
       {
@@ -56,10 +57,9 @@ const Events = props => (
     ]}
 
     step={60}
-    view='month'
-    views={['month']}
+    view='week'
+    views={['week']}
     onView={() => {}}
-
   />
 </div>
   );
