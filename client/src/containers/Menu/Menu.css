@@ -1,40 +1,57 @@
-.Divider {
+/* .Divider {
     background-color: wheat;
     height: 2px;
-    margin: auto;
-}
+    margin: auto; 
+}*/
 .Menupage {
-    background-color: black;
-    background-image: url("../../images/coffeeart.jpg");
+    background-image: url("../../images/butterfly.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
     font-family: 'Rye', cursive;
-    color:rgb(97, 53, 24);
+    color:wheat;
 
 }
-/* h1 {
+h1 {
     text-align: center;
-    font-family: 'Rye', cursive;
+    font-family: 'Diplomata', cursive;
+
     color: wheat;
 
-} */
+}
+.h2Menu,h4 {
+    font-family: 'Vast Shadow', cursive;
+}
 .Lattes {
-    background-image: url("../../images/coffeeart.jpg");
+    /* background-image: url("../../images/coffeeart.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50%;
+    background-size: 40%;
 }
 .Edibles {
-    background-image: url("../../images/coffeeart.jpg");
+    /* background-image: url("../../images/danish.jpg"); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50%;
+    background-size: 40%;
 }
 .Yummy {
-    background-image: url("../../images/coffeeart.jpg");
+    /* background-image: url("../../images/muffins.jpeg"); */
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 50%;
+    background-size: 40%;
+}
+.footerMenu {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../../images/logo2.jpg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.651);
+    color: wheat;
+    font-size: 10px;
+    border-color: black;
 }
