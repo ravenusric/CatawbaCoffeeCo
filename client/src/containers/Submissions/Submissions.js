@@ -73,7 +73,7 @@ class Submissions extends Component {
             <br />
             <br />
             <div className="subH">
-              <h2>Contact Us!</h2>
+              <h2 className="h2Contact">Contact Us!</h2>
             </div>
             <hr />
             <form className="form1">
