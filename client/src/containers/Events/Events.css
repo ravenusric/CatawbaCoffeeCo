@@ -21,6 +21,14 @@ box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
     background-color: black;
 }
 
+
+.rbc-agenda-date-cell,.rbc-agenda-time-cell,.rbc-agenda-event-cell{
+    background-color: rgba(255, 255, 255, 0.39);
+
+-webkit-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
+-moz-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
+box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1); 
+}
 /* Day of the Week */
 .rbc-header{
     background-color: black;
@@ -36,4 +44,7 @@ button{
     -webkit-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
 -moz-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
 box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1); 
+}
+#form1{
+    margin-top: 600px;
 }

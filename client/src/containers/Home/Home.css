@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../images/beans.jpg");
+    /* background-image: url("../../images/beans.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -8,7 +8,7 @@ body {
 
 .jumbotron {
     margin-top: 20px;
-    background-image: url("../../images/coffeebeans.jpg");
+    background-image: url("../../images/BWstorefront.jpeg");
     background-size: 100% 100%;
     font-family: 'Rye', cursive;
     text-shadow:black;text-shadow: 2px 2px black;
@@ -33,23 +33,52 @@ body {
 
 .nav-item {
     font-size: 27px;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+#test{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#top{
+    height: 60px;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
     background-image: url("../../images/logo2.jpg");
     background-position: left;
-    background-size: contain;
+    background-size: 100px;
     background-repeat: no-repeat;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.596);
     color: wheat;
     font-size: 10px;
     border-color: black;
-    position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;  
+  height: 70px;
+}
+
+#addr{
+    /* width: 30%; */
+  padding-top: 5px;
+ 
+    /* margin: auto; */
+}
+
+#media{
+   padding-top: 20px;
+    
+}
+
+p
+{
+margin: 0;
+/* padding: 0; */
 }

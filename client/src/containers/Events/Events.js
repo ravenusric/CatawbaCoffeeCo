@@ -8,18 +8,19 @@ BigCalendar.momentLocalizer(moment); // or globalizeLocalizer
 
 const Events = props => (
   <div id="calendar" style = {{height: 600, color: "white", fontSize:"1rem" }}>
+ 
   <BigCalendar
     events={[
       {
           title: "Tom Walsh",
-          start: new Date(2018, 6, 27), 
-          end: new Date(2018, 6, 27), 
+          start: new Date(2018, 6, 27, 19), 
+          end: new Date(2018, 6, 27,20), 
           allDay: false 
       },
       {
           title: "Paul Lover",
-          start: new Date(2018, 6, 28), 
-          end: new Date(2018, 6, 28), 
+          start: new Date(2018, 6, 28,19), 
+          end: new Date(2018, 6, 28,20), 
           allDay: false 
       },
       {
@@ -55,20 +56,39 @@ const Events = props => (
 
     ]}
 
-    step={60}
-    view='month'
-    views={['month']}
-    onView={() => {}}
+    // step={60}
+    // view='month'
+    views={['month','day','agenda']}
+    // onView={() => {}}
+    defaultDate={new Date()}
+      defaultView="month"
   />
-  
+
   <div className="footer">
-<p>Address: 117 N Main St, Mt Holly, NC 28120</p>
-<p>
-  Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
-  Thursday 7AM–8PM Friday 7AM–9PM Saturday 8AM–8PM
-</p>
-<p>Phone: (704) 820-6556</p>
-</div>
+      <div className="row">
+      <div className="col-2">
+      </div>
+
+        <div id="addr"className="col-8">
+          <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
+          <p>
+            Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
+            Thursday 7AM–8PM Friday 7AM–9PM Saturday 8AM–8PM
+            </p>
+          <p>Phone: (704) 820-6556</p>
+        </div> {/* addr*/}
+
+        <div id="media" className="col-2">
+          <a href="https://www.facebook.com/catawbacoffeeco/">
+            <img className="img-responsive1" src={require("../../images/fb.png")} alt="Facebook" width="35" height="35" />
+          </a>
+          <a href="https://www.yelp.com/biz/catawba-coffee-co-mount-holly">
+            <img className="img-responsive2" src={require("../../images/Yelp.png")} alt="Yelp" width="35" height="35" /></a>
+          <a href="https://www.instagram.com/catawbacoffeeco/">
+            <img className="img-responsive3" src={require("../../images/Instagram.png")} alt="Instagram" width="35" height="35" /></a>
+        </div> {/* media end*/}
+      </div>
+    </div>
 </div>
 
   );
