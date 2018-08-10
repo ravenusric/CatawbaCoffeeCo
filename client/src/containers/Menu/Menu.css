@@ -15,12 +15,17 @@
 }
 h1 {
     text-align: center;
-    font-family: 'Diplomata', cursive;
-
-    color: wheat;
+    font-family: 'Kaushan Script', cursive;
+    color: maroon;
 
 }
-.h2Menu,h4 {
+.h2Menu {
+    font-family: 'Kaushan Script', cursive;
+    color: maroon;
+    text-decoration: underline overline;
+
+}
+h4 {
     font-family: 'Vast Shadow', cursive;
 }
 .Lattes {

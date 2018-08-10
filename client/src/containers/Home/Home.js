@@ -18,7 +18,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div style={styles.image} className="footer">
+    <div style={styles.image} className="footerHome">
       <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
       <p>
         Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
