@@ -1,5 +1,4 @@
 import React from "react";
-// Here, we used teh 'as' keyword to rename BrowserRouter, because we didn't want to use it with that name. We renamed it Router. We got BrowserRouter from react-router-dom. We're basically saying, 'import BrowserRouter as Router and also Route. So '<Router>' down below just IS 'Router' here in import. THis is just a style thing. You can rename your named imports using the keyword 'as'.
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import NavTab from "./components/NavTabs/NavTab";
 import Home from "./containers/Home/Home";
