@@ -7,35 +7,15 @@ import "./Submissions.css";
 class Submissions extends Component {
   state = {
     Submissions: [],
-    name: "",
+    firstName: "",
+    lastName: "",
     email: "",
     text: "",
     wantsEmail: true
   };
-
-  componentDidMount() {
-    this.loadSubmissions();
-  }
-
-  myClick() {
-    console.log(this.myClick);
-  }
-
-  loadSubmissions = () => {
-    API.getSubmissions()
-      .then(res =>
-        this.setState({ Submissions: res.data, name: "", email: "", text: "" })
-      )
-      .catch(err => console.log(err));
-  };
-
-  deleteSubmissions = id => {
-    API.deleteSubmission(id)
-      .then(res => this.loadSubmissions())
-      .catch(err => console.log(err));
-  };
-
+ 
   handleInputChange = event => {
+    console.log(event.target.name, event.target.value);
     const { name, value } = event.target;
 
     this.setState({
@@ -54,13 +34,23 @@ class Submissions extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    if (this.state.name && this.state.email) {
+    console.log('Submit Clicked');
+    if (this.state.firstName && this.state.lastName && this.state.email) {
       API.saveSubmissions({
-        name: this.state.name,
+        firstName: this.state.firstName,
+        lastName: this.state.lastName,
         email: this.state.email,
         text: this.state.text
       })
-        .then(res => this.loadSubmissions())
+        .then(res => {
+          this.setState({
+            firstName: "",
+            lastName: "",
+            email: "",
+            text: ""
+          });
+          console.log('Data Submitted Successfully')
+        })
         .catch(err => console.log(err));
     }
   };
@@ -79,9 +69,9 @@ class Submissions extends Component {
             <form className="form1">
               <Input
                 className="subInput1"
-                value={this.state.name}
+                value={this.state.firstName}
                 onChange={this.handleInputChange}
-                name="name"
+                name="firstName"
                 placeholder="First Name (required)"
               />
               <Input
@@ -100,10 +90,10 @@ class Submissions extends Component {
               />
               <TextArea
                 className="subTextarea"
-                value={this.state.synopsis}
+                value={this.state.text}
                 onChange={this.handleInputChange}
                 name="text"
-                placeholder="(Optional) Catering, Feedback, Questions, etc..."
+                placeholder="(Optional Catering, Feedback, Questions, etc.)"
               />
 
               <label>
@@ -123,7 +113,7 @@ class Submissions extends Component {
 
               <br />
               <FormBtn className="subBtn"
-                disabled={!(this.state.name && this.state.email)}
+                // disabled={!(this.state.name && this.state.email)}
                 onClick={this.handleFormSubmit}
               >
                 Submit

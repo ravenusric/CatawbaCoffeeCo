@@ -1,7 +1,12 @@
 import React from "react";
 import "./About.css"
 
-
+const styles = {
+  divStyle: {
+      background: "green",
+      justifyContent: "flex-end",
+  }
+};
 const About = () => (
   <div>
     <h1>About Page</h1>
