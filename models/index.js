@@ -1,4 +1,4 @@
 module.exports = {
-    Book: require("./Submission")
+    Book: require("./submission")
   };
   

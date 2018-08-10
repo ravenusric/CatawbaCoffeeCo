@@ -79,9 +79,9 @@ class Submissions extends Component {
             <form className="form1">
               <Input
                 className="subInput1"
-                value={this.state.name}
+                value={this.state.firstName}
                 onChange={this.handleInputChange}
-                name="name"
+                name="firtName"
                 placeholder="First Name (required)"
               />
               <Input
@@ -100,10 +100,10 @@ class Submissions extends Component {
               />
               <TextArea
                 className="subTextarea"
-                value={this.state.synopsis}
+                value={this.state.text}
                 onChange={this.handleInputChange}
                 name="text"
-                placeholder="(Optional) Catering, Feedback, Questions, etc..."
+                placeholder="(Optional Catering, Feedback, Questions, etc.)"
               />
 
               <label>
@@ -123,7 +123,7 @@ class Submissions extends Component {
 
               <br />
               <FormBtn className="subBtn"
-                disabled={!(this.state.name && this.state.email)}
+                // disabled={!(this.state.name && this.state.email)}
                 onClick={this.handleFormSubmit}
               >
                 Submit

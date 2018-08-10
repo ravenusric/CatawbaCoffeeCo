@@ -2,9 +2,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const submissionSchema = new Schema({
-  name: { type: String, required: true },
+  firstName: { type: String, required: true },
+  lastName: { type: String, required: true },
   email: { type: String, required: true },
-  password: { type: String, required: true }
+  text: { type: String }
 });
 
 const Submission = mongoose.model("Submission", submissionSchema);
