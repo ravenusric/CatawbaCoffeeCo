@@ -8,7 +8,8 @@
 } */
 
 .subInput1 {
-    background-color: rgba(0, 0, 0, 0.493);
+    background: rgba(214, 210, 210, 0.781);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
    /* text-align: center; */
    color: wheat;
    width: 450px;
@@ -16,29 +17,42 @@
 }
 
 .subInput2{
-    background-color: rgba(0, 0, 0, 0.493);
+    background: rgba(214, 210, 210, 0.781);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
    /* text-align: center; */
    color: wheat;
    width: 450px;
    font-size: 18px;
 }
 .subInput3{
-    background-color: rgba(0, 0, 0, 0.418);
+    background: rgba(214, 210, 210, 0.781);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
    /* text-align: center; */
    color: slategray;
    width: 450px;
    font-size: 18px;
 }
 .subTextarea{
-    background-color: rgba(0, 0, 0, 0.466);
+    background: rgba(214, 210, 210, 0.781);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
     /* text-align: center; */
     color: slategray;
     width: 450px;
     font-size: 18px;
+    border-left: 2px solid rgb(158, 157, 157);
+    border-top: 2px solid rgb(158, 157, 157);
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
  }
  .checkbox {
-    background: rgba(0, 0, 0, 0.493);
+    background: rgba(214, 210, 210, 0.781);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
     border-radius: 15px 50px;
+    border-left: 2px solid rgb(158, 157, 157);
+    border-top: 2px solid rgb(158, 157, 157);
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+
     text-align: center;
     text-shadow:rgba(0, 0, 0);text-shadow: 2px 2px black;
     font-size: 24px;
@@ -56,10 +70,15 @@
 .subBtn {
     background-color: maroon;
     color: rgba(0, 0, 0, 0.493);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
     border-radius: 25px;
     padding:10px;
     font-size: 24px;
     margin-bottom: 200px;
+    border-left: 2px solid rgb(158, 157, 157);
+    border-top: 2px solid rgb(158, 157, 157);
+    border-right: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
 
 }
 
@@ -85,8 +104,9 @@
     height: 30px;
     width: 200%;
     border-color: rgba(0, 0, 0, 0.438);
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.61);
     border-width: 30px;
-    margin-bottom: 190px;
+    margin-bottom: 10px;
 }
 .container{
     background-image: url("../../images/BWstorefront.jpeg");

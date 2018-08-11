@@ -1,26 +1,33 @@
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+    
+  
     border-color: solid black;
+    
 }
 
-.wrapper{
+#home1{
+    overflow: hidden;
 background-image: url("../../images/BWstorefront.jpeg");
 background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
     background-size: cover;
+    padding: 0;
+    background-color: rgba(235, 233, 226, 0);
+    position:fixed;
+    left: 0;
+  right: 0;
+    height: 563px;
 }
+
 .jumbotron {
     margin-top: 20px;
-  
     background-size: 100% 100%;
     font-family: 'Rye', cursive;
     text-shadow:black;text-shadow: 2px 2px black;
     text-align: center;
-    border:1px solid rgba(255, 0, 0, 0.651);
-    background-color: rgba(240, 255, 255, 0.397);
+    /* border:1px solid rgba(255, 0, 0, 0.651); */
+    background-color: rgba(240, 255, 255, 0);
 }
 
 .jumbotron h1 {
@@ -90,3 +97,4 @@ p
 margin: 0;
 /* padding: 0; */
 }
+

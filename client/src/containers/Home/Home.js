@@ -1,31 +1,29 @@
 import React from "react";
 import "./Home.css"
 
-const styles = {
-  divStyle: {
-    background: "green",
-    justifyContent: "flex-end",
-  
-  }
-};
+// const styles = {
+//   divStyle: {
+//     background: "green",
+//     justifyContent: "flex-end",
+//   }
+// };
 
 const Home = () => (
   // <div className="Homepage">
-  <div className="wrapper">
-    <div className="container">
-      <div className="jumbotron">
-        <h1 className="text-center">Catawba Coffee Co</h1>
-        <p className="text-center">Where Friendship Is Just A Cup Away</p>
-        <hr className="text-center" />
-      </div>
-    </div>
-
-
+  <div className="container" id="home1">
+<div className="row">
+<div className="col-12">
+<div className="jumbotron">
+ <h1 className="text-center">Catawba Coffee Co</h1>
+ <p className="text-center">Where Friendship Is Just A Cup Away</p>
+   </div>    
+</div>{/*col-12 end */}
+</div>{/*row end  */}
     <div className="footer">
       <div className="row">
-      <div className="col-2"></div>  {/* Spacer*/}
+        <div className="col-2"></div>  {/* Spacer*/}
 
-        <div id="addr"className="col-8">
+        <div id="addr" className="col-8">
           <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
           <p>
             Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
