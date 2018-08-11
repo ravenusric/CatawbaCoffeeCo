@@ -7,7 +7,7 @@ import "react-big-calendar/lib/css/react-big-calendar.css"
 BigCalendar.momentLocalizer(moment); // or globalizeLocalizer
 
 const Events = props => (
-  <div id="calendar" style = {{height: 560, color: "white", fontSize:"1rem" }}>
+  <div id="calendar" style = {{height: 598, color: "white", fontSize:"1rem" }}>
  <container>
 
 

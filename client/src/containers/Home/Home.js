@@ -10,7 +10,7 @@ import "./Home.css"
 
 const Home = () => (
   // <div className="Homepage">
-  <div className="container" id="home1">
+  <div className="c " id="home1">
 <div className="row">
 <div className="col-12">
 <div className="jumbotron">

@@ -63,15 +63,14 @@ class Submissions extends Component {
       <Container className="container1">
         <Row className="mainRow">
           <Col size="md-6" className="subH">
-            <br />
-            <br />
+            
             {/* <div className="mainDIV"> */}
             {/* <div className="subDiv"> */}
               <div className="subH">
                 <h2 className="h2Contact">Contact Us!</h2>
               </div>
               <hr />
-              <form className="form1">
+            <form className="form1">
                 <Input
                   className="subInput1"
                   value={this.state.firstName}
