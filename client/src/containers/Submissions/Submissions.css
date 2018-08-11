@@ -82,6 +82,7 @@
 
 }
 
+
 .h2Contact
 {
     /* width: 200px; */
@@ -91,11 +92,11 @@
     text-align: center;
     margin-left: 280px;
     font-family: 'Kaushan Script', cursive;
-    text-decoration: underline overline;
+    text-decoration: underline;
     /* background-color: rgba(112, 128, 144, 0.541);  */ 
     /* justify-content: center; */
     /* align-items: center;  */
-    border-block-end: 20px;
+    /* border-block-end: 20px; */
 }
 
 .form1 {
