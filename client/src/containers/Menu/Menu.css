@@ -11,7 +11,10 @@
     background-size: cover;
     font-family: 'Rye', cursive;
     color:wheat;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1 {
     text-align: center;

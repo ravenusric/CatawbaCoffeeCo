@@ -5,10 +5,12 @@ const styles = {
   divStyle: {
     background: "green",
     justifyContent: "flex-end",
+  
   }
 };
 
 const Home = () => (
+  // <div className="Homepage">
   <div className="wrapper">
     <div className="container">
       <div className="jumbotron">
@@ -45,6 +47,8 @@ const Home = () => (
     </div>
 
   </div>
+  // </div>
+
 );
 
 export default Home;

@@ -1,11 +1,17 @@
 body {
-    background-image: url("../../images/BWstorefront.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     border-color: solid black;
 }
 
+.wrapper{
+background-image: url("../../images/BWstorefront.jpeg");
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .jumbotron {
     margin-top: 20px;
   
