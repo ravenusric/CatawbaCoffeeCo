@@ -52,6 +52,7 @@
     border-top: 2px solid rgb(158, 157, 157);
     border-right: 2px solid lightgray;
     border-bottom: 2px solid lightgray;
+ 
 
     text-align: center;
     text-shadow:rgba(0, 0, 0);text-shadow: 2px 2px black;
@@ -109,15 +110,15 @@
     border-width: 30px;
     margin-bottom: 10px;
 }
-.container{
+.container1{
     background-image: url("../../images/BWstorefront.jpeg");
 background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position:fixed;
-    left: 35px;
-    right: 35px;
+    /* position:fixed; */
+    margin-left: 35px;
+    margin-right: 35px;
 
 
    

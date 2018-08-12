@@ -4,17 +4,15 @@
     margin: auto; 
 }*/
 .Menupage {
-    background-image: url("../../images/butterfly.jpg");
+    background-image: url("../../images/butterfly2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
     background-size: cover;
     font-family: 'Rye', cursive;
     color:wheat;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-left: 35px;
+    margin-right:35px;
 }
 h1 {
     text-align: center;

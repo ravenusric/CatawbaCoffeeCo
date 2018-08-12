@@ -9,9 +9,9 @@ const styles = {
 };
 const About = () => (
  
- <div>
+ <div className ="about">
    
-    <h1>About Page</h1>
+    
     <div className="aboutUs">
     <h1 className="aboutH1">About Us</h1>
     <p>
