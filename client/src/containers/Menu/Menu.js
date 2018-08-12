@@ -1,12 +1,12 @@
 import React from "react";
 import "./Menu.css"
 
-const styles = {
-    divStyle: {
-        background: "green",
-        justifyContent: "flex-end",
-    }
-};
+// const styles = {
+//     divStyle: {
+//         background: "green",
+//         justifyContent: "flex-end",
+//     }
+// };
 
 const Menu = () => (
     <div className="Menupage">
