@@ -1,12 +1,12 @@
 import React from "react";
 import "./Blog.css"
 
-const styles = {
-  divStyle: {
-      background: "green",
-      justifyContent: "flex-end",
-  }
-};
+// const styles = {
+//   divStyle: {
+//       background: "green",
+//       justifyContent: "flex-end",
+//   }
+// };
 
 const Blog = () => (
   <div className="blog">

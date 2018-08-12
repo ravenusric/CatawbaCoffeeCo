@@ -11,8 +11,7 @@ class Submissions extends Component {
     lastName: "",
     email: "",
     text: "",
-    wantsEmail: true,
-    
+    wantsEmail: true
   };
 
   handleInputChange = event => {
@@ -56,77 +55,72 @@ class Submissions extends Component {
     }
   };
 
-  
-
   render() {
     return (
       <div id="contact1">
       <container>
         <Row className="mainRow">
           <Col size="md-6" className="subH">
-            
-            {/* <div className="mainDIV"> */}
-            {/* <div className="subDiv"> */}
-              <div className="subH">
-                <h2 className="h2Contact">Contact Us!</h2>
-              </div>
-              <hr />
+            <br />
+            <br />
+            <div className="subH">
+              <h2 className="h2Contact">Contact Us!</h2>
+            </div>
+            <hr />
             <form className="form1">
-                <Input
-                  className="subInput1"
-                  value={this.state.firstName}
-                  onChange={this.handleInputChange}
-                  name="firstName"
-                  placeholder="First Name (required)"
-                />
-                <Input
-                  className="subInput2"
-                  value={this.state.lastName}
-                  onChange={this.handleInputChange}
-                  name="lastName"
-                  placeholder="Last Name (required)"
-                />
-                <Input
-                  className="subInput3"
-                  value={this.state.email}
-                  onChange={this.handleInputChange}
-                  name="email"
-                  placeholder="Email (required)"
-                />
-                <TextArea
-                  className="subTextarea"
-                  value={this.state.text}
-                  onChange={this.handleInputChange}
-                  name="text"
-                  placeholder="(Optional Catering, Feedback, Questions, etc.)"
-                />
+              <Input
+                className="subInput1"
+                value={this.state.firstName}
+                onChange={this.handleInputChange}
+                name="firstName"
+                placeholder="First Name (required)"
+              />
+              <Input
+                className="subInput2"
+                value={this.state.lastName}
+                onChange={this.handleInputChange}
+                name="lastName"
+                placeholder="Last Name (required)"
+              />
+              <Input
+                className="subInput3"
+                value={this.state.email}
+                onChange={this.handleInputChange}
+                name="email"
+                placeholder="Email (required)"
+              />
+              <TextArea
+                className="subTextarea"
+                value={this.state.text}
+                onChange={this.handleInputChange}
+                name="text"
+                placeholder="(Optional Catering, Feedback, Questions, etc.)"
+              />
 
-                <label>
-                  <div className="checkbox">
-                    <Input
-                      name="wantsEmail"
-                      type="checkbox"
-                      value={this.state.signUp}
-                      checked={this.state.checked}
-                      className="subBox"
-                      onChange={this.handleCheckbox}
-                    />
-                    Check the box to sign <br />
-                    up for emails!
-                  </div>
-                </label>
+              <label>
+                <div className="checkbox">
+                  <Input
+                    name="wantsEmail"
+                    type="checkbox"
+                    value={this.state.signUp}
+                    checked={this.state.checked}
+                    className="subBox"
+                    onChange={this.handleCheckbox}
+                  />
+                  Check the box to sign <br />
+                  up for emails!
+                </div>
+              </label>
 
-                <br />
-                <FormBtn
-                  className="subBtn"
-                  // disabled={!(this.state.name && this.state.email)}
-                  onClick={this.handleFormSubmit}
-                >
-                  Submit
-                </FormBtn>
-              </form>
-              {/* </div> */}
-            {/* </div> */}
+              <br />
+              <FormBtn
+                className="subBtn"
+                // disabled={!(this.state.name && this.state.email)}
+                onClick={this.handleFormSubmit}
+              >
+                Submit
+              </FormBtn>
+            </form>
           </Col>
         </Row>
 <Row>
