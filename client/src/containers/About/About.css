@@ -1,6 +1,6 @@
 
 .about {
-    
+    padding-top: 60px;
     background-image: url("../../images/BWstorefront.jpeg");
     background-attachment: fixed;
     background-size: cover;
@@ -10,18 +10,18 @@
     margin-right:35px;
     background-color: rgba(0, 0, 0, 0.651);
     color: wheat;
-    font-size: 16px;
+    font-size: 18px;
     border-color: black;
 }
 
 .aboutUs {
     width: 65%; 
-    Background: rgba(0, 0, 0, 0.918);
+    Background: rgba(190, 185, 185, 0.5);
      text-align: center;
      margin: auto;
-     border: 5px solid maroon;
+     /* border: 5px solid rgba(153, 34, 34, 0.212); */
      text-shadow: 2px 2px black;
-     border-radius: 25px;
+     border-radius: 10px;
      margin-bottom: 50px;
      color: wheat;
      
