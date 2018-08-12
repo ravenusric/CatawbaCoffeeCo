@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NavTabs = () => (
+  <div id ="top">
+<div id="test">
   <ul className="nav nav-tabs">
     <li className="nav-item">
       <Link
@@ -68,6 +70,10 @@ const NavTabs = () => (
       </Link>
     </li>
   </ul>
+
+</div>
+</div>
+
 );
 
 export default NavTabs;

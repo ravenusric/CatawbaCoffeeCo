@@ -1,10 +1,10 @@
 /* Day background */
 .rbc-day-bg{
     background-color: rgba(255, 255, 255, 0.39);
-
--webkit-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
--moz-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
-box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
+    -webkit-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
+    -moz-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
+    box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
+    height: 100%;
 }
 
 .rbc-off-range-bg{
@@ -18,22 +18,40 @@ box-shadow: inset 0px 0px 3px 1px rgba(71,70,71,1);
 
 /* Toolbar  */
 .rbc-toolbar{
-    background-color: black;
+background-color: black;
 }
 
+
+.rbc-agenda-date-cell,.rbc-agenda-time-cell,.rbc-agenda-event-cell{
+    background-color: rgba(255, 255, 255, 0.39);
+    -webkit-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
+    -moz-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
+    box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1); 
+}
 /* Day of the Week */
-.rbc-header{
+    .rbc-header{
     background-color: black;
 }
 
 /* Event highligh bar */
-.rbc-event{
+    .rbc-event{
     background-color: rgba(0, 0, 0, 0.322) !important;
 }
 
 button{
     background-color: lightgray !important;  
     -webkit-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
--moz-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1); 
+    -moz-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
+    box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1); 
+}
+#form1{
+    margin-top: 600px;
+}
+
+#calendar{
+    background-image: url("../../images/BWstorefront.jpeg");
+  
+    position:fixed;
+    left: 35px;
+    right: 35px; 
 }

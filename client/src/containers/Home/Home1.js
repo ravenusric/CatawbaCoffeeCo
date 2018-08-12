@@ -1,32 +1,29 @@
 import React from "react";
-import "./Blog.css"
+import "./Home.css"
 
 const styles = {
   divStyle: {
-      background: "green",
-      justifyContent: "flex-end",
+    background: "green",
+    justifyContent: "flex-end",
+  
   }
 };
 
-const Blog = () => (
-  <div class="blog">
-    <h1>Blog Page</h1>
-    <p>
-      Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-      turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-      Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-      nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo
-      laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad litora
-      torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-      lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat
-      accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque vehicula sit
-      amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus non ullamcorper
-      iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-    </p>
+const Home = () => (
+  // <div className="Homepage">
+  <div className="wrapper">
+    <div className="container">
+      <div className="jumbotron">
+        <h1 className="text-center">Catawba Coffee Co</h1>
+        <p className="text-center">Where Friendship Is Just A Cup Away</p>
+        <hr className="text-center" />
+      </div>
+    </div>
+
+
     <div className="footer">
       <div className="row">
-      <div className="col-2">
-      </div>
+      <div className="col-2"></div>  {/* Spacer*/}
 
         <div id="addr"className="col-8">
           <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
@@ -48,7 +45,10 @@ const Blog = () => (
         </div> {/* media end*/}
       </div>
     </div>
+
   </div>
+  // </div>
+
 );
 
-export default Blog;
+export default Home;

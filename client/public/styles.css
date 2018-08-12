@@ -1,0 +1,23 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-image: url("../../images/logo2.jpg");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: wheat;
+    font-size: 10px;
+    border-color: black;
+    position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  margin-top: 100px;
+}
+
+#footer{
+  height: 100px;
+}

@@ -1,14 +1,15 @@
-.footerBlog {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-image: url("../../images/logo2.jpg");
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
+.blog {
+
+    
+    background-image: url("../../images/image21.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.596);
     color: wheat;
-    font-size: 10px;
+    font-size: 16px;
     border-color: black;
+    height: 580px;
+    margin-left: 35px;
+    margin-right:35px;
 }

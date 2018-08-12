@@ -60,18 +60,17 @@ class Submissions extends Component {
 
   render() {
     return (
-      <Container className="container1">
+      <div className="container1">
         <Row className="mainRow">
           <Col size="md-6" className="subH">
-            <br />
-            <br />
+            
             {/* <div className="mainDIV"> */}
             {/* <div className="subDiv"> */}
               <div className="subH">
                 <h2 className="h2Contact">Contact Us!</h2>
               </div>
               <hr />
-              <form className="form1">
+            <form className="form1">
                 <Input
                   className="subInput1"
                   value={this.state.firstName}
@@ -129,7 +128,37 @@ class Submissions extends Component {
             {/* </div> */}
           </Col>
         </Row>
-      </Container>
+<Row>
+  <div id="form1"></div>
+<Col size="md-6">
+<div className="footer">
+      <div className="row">
+      <div className="col-2">
+      </div>
+
+        <div id="addr"className="col-8">
+          <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
+          <p>
+            Hours: Sunday Closed Monday 7AM–8PM Tuesday 7AM–8PM Wednesday 7AM–8PM
+            Thursday 7AM–8PM Friday 7AM–9PM Saturday 8AM–8PM
+            </p>
+          <p>Phone: (704) 820-6556</p>
+        </div> {/* addr*/}
+
+        <div id="media" className="col-2">
+          <a href="https://www.facebook.com/catawbacoffeeco/">
+            <img className="img-responsive1" src={require("../../images/fb.png")} alt="Facebook" width="35" height="35" />
+          </a>
+          <a href="https://www.yelp.com/biz/catawba-coffee-co-mount-holly">
+            <img className="img-responsive2" src={require("../../images/Yelp.png")} alt="Yelp" width="35" height="35" /></a>
+          <a href="https://www.instagram.com/catawbacoffeeco/">
+            <img className="img-responsive3" src={require("../../images/Instagram.png")} alt="Instagram" width="35" height="35" /></a>
+        </div> {/* media end*/}
+      </div>
+    </div>
+</Col>
+</Row>
+</div>
     );
   }
 }
