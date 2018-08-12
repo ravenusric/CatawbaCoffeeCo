@@ -60,7 +60,7 @@ class Submissions extends Component {
 
   render() {
     return (
-      <div className="container1">
+      <container className="container1">
         <Row className="mainRow">
           <Col size="md-6" className="subH">
             
@@ -158,7 +158,7 @@ class Submissions extends Component {
     </div>
 </Col>
 </Row>
-</div>
+</container>
     );
   }
 }

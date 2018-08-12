@@ -112,7 +112,7 @@
 }
 .container1{
     background-image: url("../../images/BWstorefront.jpeg");
-background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
