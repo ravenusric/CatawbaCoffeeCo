@@ -14,7 +14,7 @@ const Home = () => (
 <div className="row">
 <div className="col-12">
 <div className="jumbotron">
- <h1 className="text-center">Catawba Coffee Co</h1>
+ <h1 className="text-center">CATAWBA COFFEE Co</h1>
  <p className="text-center">Where Friendship Is Just A Cup Away</p>
    </div>    
 </div>{/*col-12 end */}
