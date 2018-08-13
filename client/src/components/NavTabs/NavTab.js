@@ -27,12 +27,12 @@ const NavTabs = () => (
     </li>
     <li className="nav-item">
       <Link
-        to="/blog"
+        to="/gallery"
         className={
-          window.location.pathname === "/blog" ? "nav-link active" : "nav-link"
+          window.location.pathname === "/gallery" ? "nav-link active" : "nav-link"
         }
       >
-        Blog
+        Gallery
       </Link>
     </li>
     <li className="nav-item">
