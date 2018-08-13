@@ -35,7 +35,7 @@ const About = () => (
       </p>
     </div>
     
-    <img className="owner" src={require("../../images/CCirene.jpeg")} />
+    <img alt="owner" className="owner" src={require("../../images/CCirene.jpeg")} />
 
     <div className="footer">
       <div className="row">
@@ -50,7 +50,7 @@ const About = () => (
         </div>{" "}
         {/* addr*/}
         <div id="media" className="col-2">
-          <a href="https://www.facebook.com/catawbacoffeeco/" target="_blank">
+          <a href="https://www.facebook.com/catawbacoffeeco/" target="_blank" rel="noopener noreferrer">
             <img
               className="img-responsive1"
               src={require("../../images/fb.png")}
@@ -61,7 +61,7 @@ const About = () => (
           </a>
           <a
             href="https://www.yelp.com/biz/catawba-coffee-co-mount-holly"
-            target="_blank"
+            target="_blank" rel="noopener noreferrer"
           >
             <img
               className="img-responsive2"
@@ -71,7 +71,7 @@ const About = () => (
               height="35"
             />
           </a>
-          <a href="https://www.instagram.com/catawbacoffeeco/" target="_blank">
+          <a href="https://www.instagram.com/catawbacoffeeco/" target="_blank" rel="noopener noreferrer">
             <img
               className="img-responsive3"
               src={require("../../images/Instagram.png")}
