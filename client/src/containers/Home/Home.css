@@ -9,10 +9,11 @@ body {
     overflow: hidden;
     background-image: url("../../images/BWstorefront.jpeg");
     background-attachment: fixed;
+    opacity: .9;
     /* background-position: center; */
     /* background-repeat: no-repeat; */
     background-size: cover;
-    background-color: rgba(235, 233, 226, 0);
+    background-color: rgba(155, 157, 158, 0);
     position:fixed;
     left: 0;
     right: 0;position:fixed;
@@ -26,22 +27,24 @@ body {
     background-size: 100%;
    font-family: 'Rozha One', serif;
     /* font-family: 'Rye', cursive; */
-    text-shadow: 2px 4px 5px rgba(49, 48, 48, 0.719);
+    text-shadow: 2px 4px 10px rgb(80, 25, 25);
     text-align: center;
     /* border:1px solid rgba(255, 0, 0, 0.651); */
-    background-color: rgba(240, 255, 255, 0);
+    background-color: rgba(237, 241, 243, 0.267);
 }
 
 .jumbotron h1 {
-    font-size: 85px;
-    color:   rgb(224, 220, 220);
+    font-size: 90px;
+    color:   rgb(255, 255, 255);
     font-family: 'Rozha One', serif; 
+    opacity: 1 !important;
+
 
 }
 .jumbotron p {
-    font-size: 35px;
-    color:  rgb(224, 220, 220);
-    
+    font-size: 40px;
+    color:  rgb(255, 255, 255);
+    opacity: 1;
 }
 
 .jumbotron a {
