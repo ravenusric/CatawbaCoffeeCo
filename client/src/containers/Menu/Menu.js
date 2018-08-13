@@ -1,13 +1,6 @@
 import React from "react";
 import "./Menu.css"
 
-// const styles = {
-//     divStyle: {
-//         background: "green",
-//         justifyContent: "flex-end",
-//     }
-// };
-
 const Menu = () => (
     <div className="Menupage">
 
@@ -121,12 +114,8 @@ const Menu = () => (
                     <h4>Breakfast Sandwiches</h4>
                 </ul>
             </div>
-        </div>
-       
-       
+        </div>   
     </div>
-
-
 
 );
 
