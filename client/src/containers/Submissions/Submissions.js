@@ -140,12 +140,12 @@ class Submissions extends Component {
         </div> {/* addr*/}
 
         <div id="media" className="col-2">
-          <a href="https://www.facebook.com/catawbacoffeeco/" target="_blank">
+          <a href="https://www.facebook.com/catawbacoffeeco/" target="_blank" rel="noopener noreferrer">
             <img className="img-responsive1" src={require("../../images/fb.png")} alt="Facebook" width="35" height="35" />
           </a>
-          <a href="https://www.yelp.com/biz/catawba-coffee-co-mount-holly" target="_blank">
+          <a href="https://www.yelp.com/biz/catawba-coffee-co-mount-holly" target="_blank" rel="noopener noreferrer">
             <img className="img-responsive2" src={require("../../images/Yelp.png")} alt="Yelp" width="35" height="35" /></a>
-          <a href="https://www.instagram.com/catawbacoffeeco/" target="_blank">
+          <a href="https://www.instagram.com/catawbacoffeeco/" target="_blank" rel="noopener noreferrer">
             <img className="img-responsive3" src={require("../../images/Instagram.png")} alt="Instagram" width="35" height="35" /></a>
         </div> {/* media end*/}
       </div>
