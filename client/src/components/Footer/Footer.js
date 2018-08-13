@@ -8,13 +8,9 @@ const Footer = () => (
       <div className="col-2"></div>  {/* Spacer*/}
 
       <div id="addr" className="col-8">
-        <p>Address: 117 N Main St, Mt Holly, NC 28120</p>
+        <p>Address: 117 N Main St, Mt Holly, NC 28120 | Phone: (704) 820-6556</p>
         <p>
-        Hours: Sunday Closed | Monday 7AM–8PM | Tuesday 7AM–8PM | Wednesday
-            7AM–8PM | Thursday 7AM–8PM | Friday 7AM–9PM | Saturday 8AM–8PM 
-        
-            </p>
-        <p>Phone: (704) 820-6556</p>
+        Hours: Sunday Closed | Monday-Thursday 7AM–8PM | Friday 7AM–9PM | Saturday 8AM–8PM </p>
       </div> {/* addr*/}
 
       <div id="media" className="col-2">
