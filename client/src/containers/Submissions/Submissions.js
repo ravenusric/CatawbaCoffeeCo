@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import API from "../../utils/API";
-import { Col, Row, Container } from "../../components/Grid";
+import { Col, Row } from "../../components/Grid";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 import "./Submissions.css";
 
