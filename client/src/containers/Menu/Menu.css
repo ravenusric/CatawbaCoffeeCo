@@ -19,12 +19,14 @@ h1 {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
     color: maroon;
+    margin-bottom: 40px;
 
 }
 .h2Menu {
     font-family: 'Kaushan Script', cursive;
     color: maroon;
     text-decoration: underline overline;
+    margin-left: 40px;
 
 }
 h4 {
