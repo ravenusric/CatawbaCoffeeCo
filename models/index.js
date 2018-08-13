@@ -1,4 +1,4 @@
 module.exports = {
-    Submission: require("./submission")
+    Submission: require("./Submission")
   };
   
