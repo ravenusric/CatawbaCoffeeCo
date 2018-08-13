@@ -9,9 +9,9 @@
     background-size: 100px;
     background-repeat: no-repeat;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.596);
-    color: wheat;
-    
+    background-color: rgba(0, 0, 0, 0.747);
+    color: rgb(245, 243, 240);
+    font-family: 'Playfair Display', serif;
     border-color: black;
   height: 68px;
 }

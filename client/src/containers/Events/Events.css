@@ -1,6 +1,6 @@
 /* Day background */
 .rbc-day-bg{
-    background-color: rgba(255, 255, 255, 0.39);
+    background-color: rgba(184, 215, 238, 0.342);
     -webkit-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     -moz-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
@@ -20,7 +20,8 @@
 /* Toolbar  */
 .rbc-toolbar{
 background-color: black;
-font-family: 'Rozha One', serif;
+font-family: 'Playfair Display', serif;
+font-weight: bold;
 }
 
 
@@ -33,7 +34,7 @@ font-family: 'Rozha One', serif;
 /* Day of the Week */
     .rbc-header{
     background-color: black;
-    font-family: 'Rozha One', serif;
+    font-family: 'Playfair Display', serif;
 }
 
 /* Event highligh bar */

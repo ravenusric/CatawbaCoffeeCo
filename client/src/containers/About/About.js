@@ -12,7 +12,7 @@ const About = () => (
 
   <div className="about">
     <div className="aboutUs">
-      <h1 className="aboutH1">About the owner</h1>
+      <h1 className="aboutH1">About the Owner</h1>
       <p>
         What started out as a dream, hatched over a cup of coffee and a homemade
         cake turned into a reality when Catawba Coffee came to be in 2014.{" "}
