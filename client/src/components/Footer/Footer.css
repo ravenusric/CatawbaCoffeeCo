@@ -1,0 +1,17 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-image: url("../../images/logo2.jpg");
+    background-position: left;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: wheat;
+    
+    border-color: black;
+  height: 68px;
+}

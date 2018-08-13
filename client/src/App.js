@@ -7,6 +7,7 @@ import Blog from "./containers/Blog/Blog";
 import Submissions from "./containers/Submissions/Submissions";
 import Events from "./containers/Events/Events";
 import Menu from "./containers/Menu/Menu";
+import Footer from "./components/Footer/Footer";
 
 const App = () => (
 
@@ -19,6 +20,7 @@ const App = () => (
       <Route exact path="/contact" component={Submissions} />
       <Route exact path="/events" component={Events} />
       <Route exact path="/menu" component={Menu} />
+      <Footer/>
     </div>
   </Router>
 );
