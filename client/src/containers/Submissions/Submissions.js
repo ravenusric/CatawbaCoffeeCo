@@ -43,6 +43,7 @@ class Submissions extends Component {
         text: this.state.text
       })
         .then(res => {
+          console.log(res)
           this.setState({
             firstName: "",
             lastName: "",
