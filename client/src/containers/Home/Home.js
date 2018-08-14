@@ -15,7 +15,7 @@ const Home = () => (
 <div className="col-12">
 <div className="jumbotron">
  <h1 className="text-center">CATAWBA COFFEE Co</h1>
- <p className="text-center">Where Friendship Is Just A Cup Away...</p>
+ <p className="text-center">Where Friendship Is Just A Cup Awayst</p>
    </div>    
 </div>{/*col-12 end */}
 </div>{/*row end  */}
