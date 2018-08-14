@@ -41,8 +41,7 @@ class Submissions extends Component {
       email: email,
       text: text
     })
-    console.log(form);
-    // event.preventDefault();
+    console.log(form)
     console.log("Submit Clicked");
     if (this.state.firstName && this.state.lastName && this.state.email) {
       API.saveSubmissions({
