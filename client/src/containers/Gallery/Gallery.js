@@ -4,10 +4,9 @@ import Gallery from 'react-photo-gallery';
 
 
 const MyGallery = props => (
-  <div id = "gallery" className="img">
-      <div className="img-container">
+  <div className="gallery">
 
-    <Gallery
+    <Gallery direction={"column"}
       photos={[
         {
           id: 1,
@@ -43,7 +42,7 @@ const MyGallery = props => (
         {
           id: 6,
           src: "https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/10397098_1441356162782652_1176321138781951887_o.jpg?_nc_cat=0&oh=60be9d230b23c14b58bb441d145a0bd7&oe=5BC55002",
-          width: 2,
+          width: 3,
           height: 2
         },
         {
@@ -55,8 +54,8 @@ const MyGallery = props => (
         {
           id: 8,
           src: "https://s3-media2.fl.yelpcdn.com/bphoto/zFAns6z4VpfiMDqmLAARqw/o.jpg",
-          width: 3,
-          height: 2
+          width: 2,
+          height: 3
         },
         {
           id: 9,
@@ -88,7 +87,6 @@ const MyGallery = props => (
 
 
     />
-  </div>
   </div>
 );
 
