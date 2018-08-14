@@ -1,17 +1,13 @@
  .gallery {
 
+        padding: 10px;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        margin-top: auto;
+        width: auto;
+        background-image: url("../../images/darkbeans.jpg");
     
-    background-image: url("../../images/coffeebeans.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.596);
-    /* color: wheat; */
-    /* font-size: 16px; */
-    border-color: black;
-    height: 580px;
-    margin-left: 35px;
-    margin-right:35px;
 } 
 
  
