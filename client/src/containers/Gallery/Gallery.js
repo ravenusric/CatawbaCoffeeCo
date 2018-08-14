@@ -6,7 +6,7 @@ import Gallery from 'react-photo-gallery';
 const MyGallery = props => (
   <div className="gallery">
 
-    <Gallery direction={"column"}
+    <Gallery 
       photos={[
         {
           id: 1,
