@@ -31,7 +31,7 @@
     "morgan": "^1.9.0",
     "nodemailer": "^4.6.7",
     "react-box-sizing": "0.0.2",
-    "react-photo-gallery": "^6.1.7",
+    "react-photo-gallery": "^6.2.0",
     "react-router-dom": "^4.3.1"
   }
 }
