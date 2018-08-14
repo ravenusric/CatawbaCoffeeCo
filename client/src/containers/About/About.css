@@ -1,7 +1,6 @@
-
 .about {
     padding-top: 60px;
-    background-image: url("../../images/BWstorefront.jpeg");
+    background-image: url("../../images/BWchess.jpeg");
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
@@ -33,7 +32,7 @@
 }
 .aboutUs {
     width: 65%; 
-    Background: rgba(85, 83, 83, 0.582);
+    Background: rgba(85, 83, 83, 0.801);
      text-align: left;
      margin-left: 80px;
      /* padding-right: 75px; */
@@ -45,7 +44,8 @@
      color: whitesmoke;
      position: relative;
      padding: 25px;
-     box-shadow: 0px 0px 10px 3px black
+     box-shadow: 0px 0px 10px 3px black;
+     text-indent: 25px;
  }
  
  .aboutH1 {
