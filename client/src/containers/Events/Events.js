@@ -8,7 +8,6 @@ BigCalendar.momentLocalizer(moment); // or globalizeLocalizer
 
 const Events = props => (
   <div id="calendar" style = {{height: 558, color: "white", fontSize:"1rem" }}>
- <container>
 
 
   <BigCalendar
@@ -66,7 +65,6 @@ const Events = props => (
       defaultView="month"
   />
    
-</container> {/* container end*/}
 </div>
 
   );
