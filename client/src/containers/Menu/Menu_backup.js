@@ -36,47 +36,15 @@ const Menu = () => (
                     <h4>Tall $1.65</h4>
                     <h4>Grande $1.85</h4>
                 </ul>
-       
+            </div>
 
-           
+            <div className="col-3" id="Espresso-Drinks">
                 <h2 className="h2Menu">Espresso Drinks</h2>
                 <ul>
                     <h4>Espresso  $1.75</h4>
                     <h4>Americano  $1.75</h4>
                     <h4>Bad Wolf  $3.75</h4>
                     <h4>Cappuccino</h4>
-                </ul>
-
-                  <h2 className="h2Menu">Smoothies</h2>
-                <ul>
-                    <h4>Peach</h4>
-                    <h4>Strawberry</h4>
-                    <h4>Mango</h4>
-                    <h4>Strawberry Banana</h4>
-                    <h4>Wildberry</h4>
-                    <h4>Pina Colada</h4>
-                    <p>$4.05</p>
-                </ul>
-            </div>
-
-<div className="col-3" id="Frappes">
-                <h2 className="h2Menu">Frappes</h2>
-                <ul>
-                    <h4>Vanilla</h4>
-                    <h4>Cappuccino</h4>
-                    <h4>Mocha</h4>
-                    <h4>Cookie and Cream</h4>
-                    <h4>Peanut Butter Mocha</h4>
-                    <h4>Chai</h4>
-                    <p>$4.05</p>
-                </ul>
-
-                <h2 className="h2Menu">Non Espresso Drinks</h2>
-                <ul>
-                    <h4>Chai Latte</h4>
-                    <h4>Hot Tea</h4>
-                    <h4>Hot Chocolate</h4>
-                    <h4>Steamers</h4>
                 </ul>
             </div>
 
@@ -90,7 +58,44 @@ const Menu = () => (
                     <h4>Whipped Cream</h4>
                     <h4>Refills</h4>
                 </ul>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-3" id="Frappes">
+                <h2 className="h2Menu">Frappes</h2>
+                <ul>
+                    <h4>Vanilla</h4>
+                    <h4>Cappuccino</h4>
+                    <h4>Mocha</h4>
+                    <h4>Cookie and Cream</h4>
+                    <h4>Peanut Butter Mocha</h4>
+                    <h4>Chai</h4>
+                    <p>$4.05</p>
+                </ul>
+            </div>
+            <div className="col-3" id="Smoothies">
+                <h2 className="h2Menu">Smoothies</h2>
+                <ul>
+                    <h4>Peach</h4>
+                    <h4>Strawberry</h4>
+                    <h4>Mango</h4>
+                    <h4>Strawberry Banana</h4>
+                    <h4>Wildberry</h4>
+                    <h4>Pina Colada</h4>
+                    <p>$4.05</p>
+                </ul>
+            </div>
+            <div className="col-3" id="Espresso">
+                <h2 className="h2Menu">Non Espresso Drinks</h2>
+                <ul>
+                    <h4>Chai Latte</h4>
+                    <h4>Hot Tea</h4>
+                    <h4>Hot Chocolate</h4>
+                    <h4>Steamers</h4>
+                </ul>
+            </div>
 
+            <div className="col-3" id="Food">
                 <h2 className="h2Menu">Food</h2>
                 <ul>
                     <h4>Salads</h4>
@@ -102,7 +107,6 @@ const Menu = () => (
                 </ul>
             </div>
         </div>
-       
     </div>
 
 );

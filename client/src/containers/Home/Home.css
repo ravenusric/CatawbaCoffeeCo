@@ -25,7 +25,7 @@ body {
 .jumbotron {
     margin-top: 20px;
     background-size: 100%;
-   font-family: 'Rozha One', serif;
+
     /* font-family: 'Rye', cursive; */
     text-shadow: -1px 1px 1px rgb(25, 58, 80),0px 0px 2px rgb(37, 25, 80),1px 3px 5px rgb(25, 44, 80),2px 4px 10px rgb(80, 25, 25);
     text-align: center;
@@ -44,6 +44,7 @@ body {
 .jumbotron p {
     font-size: 40px;
     color:  rgb(255, 255, 255);
+    font-family: 'Rozha One', serif;
     /* -webkit-text-stroke: 1px black; */
     /* paint-order: stroke fill; */
     text-shadow:-2px 0px 1px rgb(25, 47, 80) ,-1px 1px 1px rgb(25, 64, 80),0px 0px 2px rgb(25, 53, 80),1px 3px 5px rgb(25, 58, 80),2px 4px 10px rgb(80, 25, 25);
@@ -76,23 +77,7 @@ body {
     height: 60px;
 }
 
-/* .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-image: url("../../images/logo2.jpg");
-    background-position: left;
-    background-size: 100px;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.596);
-    color: wheat;
-    
-    border-color: black;
-  height: 68px;
-} */
+
 
 #addr{
     /* width: 30%; */
