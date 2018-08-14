@@ -10,6 +10,7 @@
 
 .rbc-off-range-bg{
     opacity: .6;
+
 }
 
 .rbc-today{
@@ -52,10 +53,15 @@ button{
     margin-top: 600px;
 }
 
-#calendar{
+.calendar{
     background-image: url("../../images/music2.jpg");
   
     position:fixed;
     left: 35px;
     right: 35px; 
+}
+.rbc-day-bg.rbc-off-range-bg {
+
+    background-color: black;
+
 }
