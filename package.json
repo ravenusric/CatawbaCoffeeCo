@@ -29,6 +29,7 @@
     "mongoose": "^5.0.17",
     "morgan": "^1.9.0",
     "react-box-sizing": "0.0.2",
+    "react-photo-gallery": "^6.1.6",
     "react-router-dom": "^4.3.1"
   }
 }
