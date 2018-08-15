@@ -6,13 +6,13 @@ import Gallery from 'react-photo-gallery';
 const MyGallery = props => (
   <div className="gallery">
 
-    <Gallery direction={"column"}
+    <Gallery 
       photos={[
         {
           id: 1,
           src: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/10500559_1457809917803943_6917397169907490880_n.jpg?_nc_cat=0&oh=03152861ee31594eae2f44625d7a7f88&oe=5BC7C581",
           width: 2,
-          height: 1
+          height: 2
         },
         {
           id: 2,
@@ -71,14 +71,14 @@ const MyGallery = props => (
         },
         {
           id: 11,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC76EBMNV/image_from_ios.jpg",
+          src: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10393780_1547527285498872_6461854554123594255_n.jpg?_nc_cat=0&oh=4926267ec0a31f36540a2e2f017e9803&oe=5BC83C26",
           width: 3,
           height: 2
         },
         {
           id: 12,
-          src: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10393780_1547527285498872_6461854554123594255_n.jpg?_nc_cat=0&oh=4926267ec0a31f36540a2e2f017e9803&oe=5BC83C26",
-          width: 4,
+          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC76EBMNV/image_from_ios.jpg",
+          width: 3,
           height: 2
         },
 
