@@ -11,6 +11,11 @@ const About = () => (
   <div className="about">
     <div className="aboutUs">
       <h1 className="aboutH1">About the Owner</h1>
+      <img
+      alt="owner"
+      className="owner"
+      src={require("../../images/CCireneBW.jpeg")}
+    />
       <p>
           What started out as a dream, hatched over a cup of coffee and a homemade
         cake turned into a reality when Catawba Coffee came to be in 2014. When
@@ -37,11 +42,7 @@ const About = () => (
       </p>
     </div>
 
-    <img
-      alt="owner"
-      className="owner"
-      src={require("../../images/CCireneBW.jpeg")}
-    />
+    
   </div>
 );
 

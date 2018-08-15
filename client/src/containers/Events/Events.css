@@ -59,9 +59,9 @@ button{
 .calendar{
     background-image: url("../../images/music2.jpg");
   
-    position:fixed;
-    left: 35px;
-    right: 35px; 
+    /* position:fixed; */
+    margin-left: 35px;
+    margin-right: 35px; 
 }
 .rbc-day-bg.rbc-off-range-bg {
 
