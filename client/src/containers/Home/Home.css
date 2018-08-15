@@ -99,3 +99,25 @@ margin: 0;
 /* padding: 0; */
 }
 
+.review {
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+.yelp{
+    color:red;
+    margin-left: 80%;
+    
+}
+
+.Quote{
+    Background: rgba(90, 87, 87, 0.89);
+    position: relative;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.616);
+    margin-left: 80px;
+    text-shadow: 2px 2px black;
+    margin-right: 80px;
+}
+

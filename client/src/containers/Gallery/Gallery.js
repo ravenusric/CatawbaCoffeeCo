@@ -16,7 +16,7 @@ const MyGallery = props => (
         },
         {
           id: 2,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC71H1EQY/image_from_ios.jpg",
+          src: "https://s3-media2.fl.yelpcdn.com/bphoto/jUyFFG1G9IPZzX4Wr11N9w/o.jpg",
           width: 2,
           height: 2
         },
@@ -65,7 +65,7 @@ const MyGallery = props => (
         },
         {
           id: 10,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC76E5RPT/image_from_ios.jpg",
+          src: "http://www.alinegiordano.net/photos/holcombe_2012/holcombe_5038.jpg",
           width: 3,
           height: 2
         },
@@ -77,7 +77,7 @@ const MyGallery = props => (
         },
         {
           id: 12,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC76EBMNV/image_from_ios.jpg",
+          src: "https://s3-media3.fl.yelpcdn.com/bphoto/19wubAr-oofLFWa8pAke5g/o.jpg",
           width: 3,
           height: 2
         },
