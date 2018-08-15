@@ -10,6 +10,7 @@
 
 .rbc-off-range-bg{
     opacity: .6;
+
 }
 
 .rbc-today{
@@ -25,8 +26,10 @@ font-weight: bold;
 }
 
 
-.rbc-agenda-date-cell,.rbc-agenda-time-cell,.rbc-agenda-event-cell{
-    background-color: rgba(255, 255, 255, 0.39);
+.rbc-agenda-date-cell,.rbc-agenda-time-cell, .rbc-agenda-event-cell{
+    color: white;
+    font-style: bold;
+    background-color: rgba(19, 19, 241, 0.322);
     -webkit-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     -moz-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1); 
@@ -35,6 +38,7 @@ font-weight: bold;
     .rbc-header{
     background-color: black;
     font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 
 /* Event highligh bar */
@@ -43,7 +47,7 @@ font-weight: bold;
 }
 
 button{
-    background-color: lightgray !important;  
+    background-color: rgb(211, 211, 211) !important;  
     -webkit-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
     -moz-box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1);
     box-shadow: inset 0px 0px 2px 1px rgba(71,70,71,1); 
@@ -52,10 +56,19 @@ button{
     margin-top: 600px;
 }
 
-#calendar{
+.calendar{
     background-image: url("../../images/music2.jpg");
   
     position:fixed;
     left: 35px;
     right: 35px; 
 }
+.rbc-day-bg.rbc-off-range-bg {
+
+    background-color: rgb(2, 6, 17);
+
+}
+.rbc-day-bg.rbc-today {
+    background-color: rgb(129, 160, 228);
+}
+
