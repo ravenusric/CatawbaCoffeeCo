@@ -147,7 +147,7 @@ const Events = props => (
 
             ]}
 
-            views={['month', 'day', 'agenda']}
+            views={['month','agenda']}
 
             defaultDate={new Date()}
             defaultView="month"

@@ -26,8 +26,10 @@ font-weight: bold;
 }
 
 
-.rbc-agenda-date-cell,.rbc-agenda-time-cell,.rbc-agenda-event-cell{
-    background-color: rgba(255, 255, 255, 0.39);
+.rbc-agenda-date-cell,.rbc-agenda-time-cell, .rbc-agenda-event-cell{
+    color: white;
+    font-style: bold;
+    background-color: rgba(46, 31, 31, 0.39);
     -webkit-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     -moz-box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1);
     box-shadow: inset 0px 0px 4px 1px rgba(71,70,71,1); 
@@ -62,6 +64,10 @@ button{
 }
 .rbc-day-bg.rbc-off-range-bg {
 
-    background-color: black;
+    background-color: rgb(2, 6, 17);
 
 }
+.rbc-day-bg.rbc-today {
+    background-color: rgb(104, 125, 184);
+}
+
