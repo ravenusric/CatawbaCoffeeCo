@@ -1,15 +1,7 @@
 import React from "react";
-import "./Home.css"
-
-// const styles = {
-//   divStyle: {
-//     background: "green",
-//     justifyContent: "flex-end",
-//   }
-// };
+import "./Home.css";
 
 const Home = () => (
-  // <div className="Homepage">
   <div className="c " id="home1">
 <div className="row">
 <div className="col-12">
@@ -22,7 +14,6 @@ const Home = () => (
 
   </div>
   // </div>
-
 );
 
 export default Home;
