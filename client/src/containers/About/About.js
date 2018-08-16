@@ -34,7 +34,7 @@ const About = () => (
         being business owners was accepted and they have never looked back.
       </p>
       <br />
-      <p>
+      <p id= "last">
 
           So, If you're in the area be sure to stop by for a cup and a smile. We'd
 
