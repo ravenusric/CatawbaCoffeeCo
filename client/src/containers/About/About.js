@@ -12,7 +12,7 @@ const About = () => (
     <div className="aboutUs">
       <h1 className="aboutH1">About the Owner</h1>
       <p>
-        What started out as a dream, hatched over a cup of coffee and a homemade
+          What started out as a dream, hatched over a cup of coffee and a homemade
         cake turned into a reality when Catawba Coffee came to be in 2014. When
         Irene, the owner, came to Mount Holly it was originally for her to
         manage another independent shop. As the time went by she met some of the
@@ -22,19 +22,17 @@ const About = () => (
         group of folks sitting around and telling stories, all over a cup of
         coffee.
       </p>
-      <br />
+      <br/>
       <p>
-        When the opportunity came to Irene and her husband Joe to buy the shop
+          When the opportunity came to Irene and her husband Joe to buy the shop
         it was an almost immediate a yes. The fear and doubt were quickly pushed
         aside when the thought of having to leave Mount Holly and the family
-        that they'd became a part of was no longer imminent. Often times they're
-        asked why the name of the coffee shop and their answer is and will
-        always be the Catawba River. The challenge of "business owner" was
+        that they'd became a part of was no longer imminent. The challenge was
         accepted and they never looked back.
       </p>
-      <br />
+      <br/>
       <p>
-        So, If you're in the area be sure to stop in for a cup and a smile. We'd
+          So, If you're in the area be sure to stop in for a cup and a smile. We'd
         love to meet you!
       </p>
     </div>
