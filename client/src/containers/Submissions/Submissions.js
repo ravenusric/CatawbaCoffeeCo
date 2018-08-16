@@ -105,7 +105,7 @@ class Submissions extends Component {
                 placeholder="(Optional Catering, Feedback, Questions, etc.)"
               />
 
-              <label>
+              {/* <label>
                 <div className="checkbox">
                   <Input
                     name="wantsEmail"
@@ -118,7 +118,7 @@ class Submissions extends Component {
                   Check the box to sign <br />
                   up for emails!
                 </div>
-              </label>
+              </label> */}
 
               <br />
               <FormBtn
