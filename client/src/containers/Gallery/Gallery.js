@@ -6,18 +6,18 @@ import Gallery from 'react-photo-gallery';
 const MyGallery = props => (
   <div className="gallery">
 
-    <Gallery 
+    <Gallery
       photos={[
         {
           id: 1,
           src: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/10500559_1457809917803943_6917397169907490880_n.jpg?_nc_cat=0&oh=03152861ee31594eae2f44625d7a7f88&oe=5BC7C581",
-          width: 2,
+          width: 3,
           height: 2
         },
         {
           id: 2,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC71H1EQY/image_from_ios.jpg",
-          width: 2,
+          src: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/12669507_1666702190248047_8563102423551437089_n.jpg?_nc_cat=0&oh=072fd1020cb11a1150e789f8be173a5e&oe=5BF26A42",
+          width: 4,
           height: 2
         },
         {
@@ -28,7 +28,6 @@ const MyGallery = props => (
         },
         {
           id: 4,
-          title: "story time",
           src: "https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/16026_1463567880561480_2233460622546959243_n.jpg?_nc_cat=0&oh=af78989316df408869bf7bcd5840f7d3&oe=5BF675B4",
           width: 3,
           height: 3
@@ -65,19 +64,19 @@ const MyGallery = props => (
         },
         {
           id: 10,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC76E5RPT/image_from_ios.jpg",
+          src: "http://www.alinegiordano.net/photos/holcombe_2012/holcombe_5038.jpg",
           width: 3,
           height: 2
         },
         {
           id: 11,
-          src: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10393780_1547527285498872_6461854554123594255_n.jpg?_nc_cat=0&oh=4926267ec0a31f36540a2e2f017e9803&oe=5BC83C26",
+          src: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/12046967_1632559306995669_1149556474233610149_n.jpg?_nc_cat=0&oh=230f6bbff68737f1a394baa15a9f5cc7&oe=5C064986",
           width: 3,
           height: 2
         },
         {
           id: 12,
-          src: "https://files.slack.com/files-pri/TAP9G0J1Z-FC76EBMNV/image_from_ios.jpg",
+          src: "https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/10393780_1547527285498872_6461854554123594255_n.jpg?_nc_cat=0&oh=4926267ec0a31f36540a2e2f017e9803&oe=5BC83C26",
           width: 3,
           height: 2
         },
