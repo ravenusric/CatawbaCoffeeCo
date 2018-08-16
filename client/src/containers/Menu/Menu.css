@@ -56,17 +56,7 @@ h4 {
     background-position: center;
     background-size: 40%;
 }
-/* .footerMenu {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-image: url("../../images/logo2.jpg");
-    background-position: left;
-    background-size: contain;
-    background-repeat: no-repeat;
-    text-align: center;
-    background-color: rgba(146, 145, 145, 0.651);
-    color: wheat;
-    font-size: 10px;
-    border-color: black;
-} */
+ul p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}

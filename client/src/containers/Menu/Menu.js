@@ -77,6 +77,7 @@ const Menu = () => (
                     <h4>Hot Tea</h4>
                     <h4>Hot Chocolate</h4>
                     <h4>Steamers</h4>
+                    <p>$4.05</p>
                 </ul>
             </div>
 
@@ -89,6 +90,7 @@ const Menu = () => (
                     <h4>Flavor</h4>
                     <h4>Whipped Cream</h4>
                     <h4>Refills</h4>
+                    <p>$4.05</p>
                 </ul>
 
                 <h2 className="h2Menu">Food</h2>
@@ -99,6 +101,7 @@ const Menu = () => (
                     <h4>Pastries</h4>
                     <h4>Sandwiches</h4>
                     <h4>Breakfast Sandwiches</h4>
+                    <p>$4.05</p>
                 </ul>
             </div>
         </div>
