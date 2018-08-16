@@ -1,12 +1,6 @@
 import React from "react";
 import "./About.css";
 
-// const styles = {
-//   divStyle: {
-//       background: "green",
-//       justifyContent: "flex-end",
-//   }
-// };
 const About = () => (
   <div className="about">
     <div className="aboutUs">
@@ -17,10 +11,10 @@ const About = () => (
       src={require("../../images/CCireneBW.jpeg")}
     />
       <p>
-          What started out as a dream, hatched over a cup of coffee and a homemade
-        cake turned into a reality when Catawba Coffee came to be in 2014. When
+          What started out as a dream hatched over a cup of coffee and a homemade
+        cake, and turned into a reality when Catawba Coffee came to be in 2014. When
         Irene, the owner, came to Mount Holly it was originally for her to
-        manage another independent shop. As the time went by she met some of the
+        manage another independent shop. As time went by she met some of the
         most wonderful people! Many who knew each other and some who just
         happened by (mostly by accident) no matter how you got here or where you
         came from you'll become a regular. There's always the most eclectic
@@ -37,7 +31,7 @@ const About = () => (
       </p>
       <br/>
       <p>
-          So, If you're in the area be sure to stop in for a cup and a smile. We'd
+          So, If you're in the area be sure to stop by for a cup and a smile. We'd
         love to meet you!
       </p>
     </div>
