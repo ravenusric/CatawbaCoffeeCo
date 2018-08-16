@@ -1,18 +1,14 @@
-# **Catawba Coffee Project.**
-The goal of our project is to designed web site than can actually used by our client, **_Catawba Coffee Co._** 
+# **Catawba Coffee Website Project.**
+The goal of our project is to design a web site that can actually be used by our client, **_Catawba Coffee Co._** 
 
 
 ### **Client Requests for web site:**
 * Displays menu.
 * Shows our upcoming events.
-* Has a blog.
-* A place for our clients to communicate with us. 
+* Provides a place for our clients to communicate with us. 
 * Displays contact information. 
 
-
-
 ___
-
 
 ## **Web Site Layout:**
 
@@ -20,35 +16,35 @@ ___
 ![Home Page](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/cchome.png)
 
 ### **About**
-The about page give info about owner and Catawba Coffee.
+The About page gives information about owner and Catawba Coffee.
 ![About](/client/src/images/ccabout.png)
 
 ### **Gallery**
 
-Gallery page is used to show pictures of recent events.
+The Gallery page is used to show pictures of recent events.
 
 ![Gallery](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/ccgallery.png)
 
 
 ### **Menu**
 
-Menu is current beverages and prices.
+The Menu page is used to show current beverages and prices.
 ![Menu](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/ccmenu.png)
 
 ### **Events**
 
-The events page lists music events hosted at the coffee shop.
+The Events page lists music events hosted at the coffee shop.
 ![Events](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/ccevents.png)
 
 ### **Contact Page**
-Customers and submit request and comments via email.
+Customers can submit requests and comments via email.
 
 ![Contact](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/cccontact.png)
 
 
 ### **Footer**
 
-The footer is branded with the company logo.  The address, phone number and store hours and listed along with links to Facebook, Yelp and Instagram.
+The footer is branded with the company logo.  The address, phone number and store hours are listed along with links to Facebook, Yelp and Instagram.
 
 ![About](/client/src/images/ccfooter.png)
 ---
@@ -66,7 +62,7 @@ The footer is branded with the company logo.  The address, phone number and stor
 
 ---
 ### **Web Site Url:**
-  *https://evening-island-44272.herokuapp.com/*
+  *https://catawbacoffeeco.herokuapp.com/*
 
 ### **Git Hub :**
 *https://github.com/oscarsolorzano/Project_3*
