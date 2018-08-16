@@ -15,6 +15,7 @@ const About = () => (
         alt="owner"
         className="owner"
         src={require("../../images/CCireneBW.jpeg")}
+        title="Irene, the owner, and barista Garrett" 
       />
       <p>
         What started out as a dream, hatched over a cup of coffee and a homemade
