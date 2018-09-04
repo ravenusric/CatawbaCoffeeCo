@@ -4,12 +4,12 @@ body {
 
 #home1{
     overflow: hidden;
-    background-image: url("../../images/BWstorefront.jpeg");
+    background-image: url("../../images/ccoutside.jpg");
     background-attachment: fixed;
     opacity: .9;
     /* background-position: center; */
     /* background-repeat: no-repeat; */
-    background-size: cover;
+    background-size: 100%100%;
     background-color: rgba(155, 157, 158, 0);
     position:fixed;
     left: 0;
@@ -107,7 +107,7 @@ margin: 0;
 
 }
 .yelp{
-    color:white;
+    color:red;
     margin-left: 80%;
     
 }

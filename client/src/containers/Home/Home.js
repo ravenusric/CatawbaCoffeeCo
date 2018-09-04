@@ -6,8 +6,8 @@ const Home = () => (
 <div className="row">
 <div className="col-12">
 <div className="jumbotron">
- <h1 className="text-center">CATAWBA <span>COFFEE CO.</span></h1>
- <p className="text-center">Where Friendship Is Just A Cup Away</p>
+ <h1 className="text-center"> <span></span></h1>
+ <p className="text-center"></p>
    </div>    
 </div>{/*col-12 end */}
 </div>{/*row end  */}

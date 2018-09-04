@@ -8,7 +8,7 @@ const About = () => (
       <img
         alt="owner"
         className="owner"
-        src={require("../../images/CCireneBW.jpeg")}
+        src={require("../../images/CCirene.jpeg")}
         title="Irene, the owner, and barista Garrett" 
       />
       <p>
