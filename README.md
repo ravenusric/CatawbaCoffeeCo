@@ -13,33 +13,33 @@ ___
 ## **Web Site Layout:**
 
 ### **Home Page**
-![Home Page](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/cchome.png)
+![Home Page](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbahome.png)
 
 ### **About**
 The About page gives information about owner and Catawba Coffee.
-![About](/client/src/images/ccabout.png)
+![About](/client/src/images/catawbaabout.png)
 
 ### **Gallery**
 
 The Gallery page is used to show pictures of recent events.
 
-![Gallery](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/ccgallery.png)
+![Gallery](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbagallery.png)
 
 
 ### **Menu**
 
 The Menu page is used to show current beverages and prices.
-![Menu](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/ccmenu.png)
+![Menu](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbamenu.png)
 
 ### **Events**
 
 The Events page lists music events hosted at the coffee shop.
-![Events](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/ccevents.png)
+![Events](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbaevents.png)
 
 ### **Contact Page**
 Customers can submit requests and comments via email.
 
-![Contact](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/cccontact.png)
+![Contact](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbacontact.png)
 
 
 ### **Footer**
@@ -65,4 +65,4 @@ The footer is branded with the company logo.  The address, phone number and stor
   *https://catawbacoffeeco.herokuapp.com/*
 
 ### **Git Hub :**
-*https://github.com/oscarsolorzano/Project_3*
+*https://github.com/ravenusric/Project_3*
