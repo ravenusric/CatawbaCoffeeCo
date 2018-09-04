@@ -12,7 +12,8 @@
     "react-dom": "^16.4.2",
     "react-photo-gallery": "^6.1.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4"
+    "react-scripts": "1.1.4",
+    "homepage" : "http://ravenusric.github.io/CatawbaCoffeeCo"
   },
   "scripts": {
     "start": "react-scripts start",
