@@ -13,7 +13,7 @@ ___
 ## **Web Site Layout:**
 
 ### **Home Page**
-![Home Page](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbahome.png)
+![Home Page](/client/src/images/catawbahome.png)
 
 ### **About**
 The About page gives information about owner and Catawba Coffee.
@@ -23,23 +23,23 @@ The About page gives information about owner and Catawba Coffee.
 
 The Gallery page is used to show pictures of recent events.
 
-![Gallery](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbagallery.png)
+![Gallery](/client/src/images/catawbagallery.png)
 
 
 ### **Menu**
 
 The Menu page is used to show current beverages and prices.
-![Menu](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbamenu.png)
+![Menu](/client/src/images/catawbamenu.png)
 
 ### **Events**
 
 The Events page lists music events hosted at the coffee shop.
-![Events](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbaevents.png)
+![Events](/client/src/images/catawbaevents.png)
 
 ### **Contact Page**
 Customers can submit requests and comments via email.
 
-![Contact](https://raw.githubusercontent.com/oscarsolorzano/Project_3/master/client/src/images/catawbacontact.png)
+![Contact](/client/src/images/catawbacontact.png)
 
 
 ### **Footer**
